@@ -1,0 +1,1182 @@
+{
+	"info": {
+		"_postman_id": "11067980-957a-40a3-96de-7111708edc69",
+		"name": "Atividade2 - Consumo API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Marvel",
+			"item": [
+				{
+					"name": "Buscar Lista Quadrinhos",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/comics?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"comics"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Quadrinho Por Id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/comics/82967?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"comics",
+								"82967"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Busca Historia Quadrinhos",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/stories/205071?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"stories",
+								"205071"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Lista Séries",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/series?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"series"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Série Quadrinhos Por Id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/series/31445?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"series",
+								"31445"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Lista Criadores",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/creators?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"creators"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Criador Por Id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/creators/13970?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"creators",
+								"13970"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Lista Caracteres",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/characters?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"characters"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Caractere Por Id",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/characters/1011334?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"characters",
+								"1011334"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Buscar Listas Quadrinhos Filtradas Por Id de Personagem.",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://gateway.marvel.com/v1/public/characters/1011334/comics?ts=2022&apikey={{apikey}}&hash={{hash}}",
+							"protocol": "http",
+							"host": [
+								"gateway",
+								"marvel",
+								"com"
+							],
+							"path": [
+								"v1",
+								"public",
+								"characters",
+								"1011334",
+								"comics"
+							],
+							"query": [
+								{
+									"key": "ts",
+									"value": "2022"
+								},
+								{
+									"key": "apikey",
+									"value": "{{apikey}}"
+								},
+								{
+									"key": "hash",
+									"value": "{{hash}}"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Spotify",
+			"item": [
+				{
+					"name": "Gerar Token",
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"exec": [
+									""
+								],
+								"type": "text/javascript"
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var responseBody = JSON.parse(responseBody);\r",
+									"pm.globals.set(\"token\",\"Bearer \" + responseBody.access_token);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Basic NGY3ZWI2NWY2MzVjNGRjMGFhNzM3ZWMwOTdkMzQwOWE6OTNiMTUzZjZlMTVjNGM3NzkzMjc5YmZkZmI5YzkxZDQ",
+								"type": "text"
+							},
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "grant_type",
+									"value": "client_credentials",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "https://accounts.spotify.com/api/token",
+							"protocol": "https",
+							"host": [
+								"accounts",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"api",
+								"token"
+							],
+							"query": [
+								{
+									"key": "grant_type",
+									"value": "4f7eb65f635c4dc0aa737ec097d3409a",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter vários álbuns",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/albums?ids=382ObEPsp2rxGrnsizN5TX",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"albums"
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": "382ObEPsp2rxGrnsizN5TX"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter faixas do álbum",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/albums/4aawyAB9vmqN3uQ7FjRGTy/tracks",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"albums",
+								"4aawyAB9vmqN3uQ7FjRGTy",
+								"tracks"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Artista",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/artists/0TnOYISbd1XYRBk9myaseg",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"artists",
+								"0TnOYISbd1XYRBk9myaseg"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Lista Artista",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/artists?ids=2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"artists"
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": "2CIMQHirSU0MQqyYHq0eOx,57dN52uHvrHOxijzpIgu3E,1vCWHaC5f2uS3yhpwWbIA6"
+								},
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Faixa",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/tracks/11dFghVXANMlKmJXsNCbNl",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"tracks",
+								"11dFghVXANMlKmJXsNCbNl"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": "",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Lista Faixa",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/tracks?ids=7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"tracks"
+							],
+							"query": [
+								{
+									"key": "ids",
+									"value": "7ouMYWpwJ422jRcDASZB7P,4VqPOruhp5EdPBeR92t6lQ,2takcwOaAZWiXQijPHIx7B"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Recomendações",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/recommendations?seed_artists=4NHQUGzhtTLFvgF5SZesLK",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"recommendations"
+							],
+							"query": [
+								{
+									"key": "seed_artists",
+									"value": "4NHQUGzhtTLFvgF5SZesLK"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Várias Categorias Navegação",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/browse/categories",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"browse",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Playlist",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://api.spotify.com/v1/playlists/3cEYpjA9oz9GiPac4AsH4n",
+							"protocol": "https",
+							"host": [
+								"api",
+								"spotify",
+								"com"
+							],
+							"path": [
+								"v1",
+								"playlists",
+								"3cEYpjA9oz9GiPac4AsH4n"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Ifood",
+			"item": [
+				{
+					"name": "Gerar Token",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var responseBody = JSON.parse(responseBody);\r",
+									"pm.globals.set(\"token_ifood\",\"bearer \" + responseBody.accessToken);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/x-www-form-urlencoded",
+								"type": "text"
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							},
+							{
+								"key": "",
+								"value": "",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/authentication/v1.0/oauth/token?grantType=client_credentials&clientId=d36557db-5419-4789-9f58-8eb3e6d49056&clientSecret=re7zk9gkdam9rtx6w4vh8sc39ry0qv76qqr9inccovbncm63l8gewjp48z0oqzqnq9wy3gcm619inkfr0cvotpz9uiymfd82vdc",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"authentication",
+								"v1.0",
+								"oauth",
+								"token"
+							],
+							"query": [
+								{
+									"key": "grantType",
+									"value": "client_credentials"
+								},
+								{
+									"key": "clientId",
+									"value": "d36557db-5419-4789-9f58-8eb3e6d49056"
+								},
+								{
+									"key": "clientSecret",
+									"value": "re7zk9gkdam9rtx6w4vh8sc39ry0qv76qqr9inccovbncm63l8gewjp48z0oqzqnq9wy3gcm619inkfr0cvotpz9uiymfd82vdc"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Comerciante",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Detalhes do Comerciante",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Status do Comerciante",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/status",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"status"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Status do Comerciante Por Operação",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/status/delivery",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"status",
+								"delivery"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Lista Interrupções do Comerciante",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef\",\r\n  \"description\": \"teste\",\r\n  \"start\": \"2022-01-05T21:36:01.747Z\",\r\n  \"end\": \"2022-02-05T21:36:01.747Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/interruptions",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"interruptions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter Catalogo Comerciante",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef\",\r\n  \"description\": \"teste\",\r\n  \"start\": \"2022-01-05T21:36:01.747Z\",\r\n  \"end\": \"2022-02-05T21:36:01.747Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/catalog/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/catalogs",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"catalog",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"catalogs"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Obter todas as categorias dentro de um catálogo específico",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef\",\r\n  \"description\": \"teste\",\r\n  \"start\": \"2022-01-05T21:36:01.747Z\",\r\n  \"end\": \"2022-02-05T21:36:01.747Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/catalog/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/catalogs/e112a410-49b5-42f7-83c0-65c8527e5738/categories",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"catalog",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"catalogs",
+								"e112a410-49b5-42f7-83c0-65c8527e5738",
+								"categories"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Criar Interrupções do Comerciante",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"id\": \"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef\",\r\n  \"description\": \"teste\",\r\n  \"start\": \"2022-01-05T21:36:01.747Z\",\r\n  \"end\": \"2022-02-05T21:36:01.747Z\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/merchant/v1.0/merchants/0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef/interruptions",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"merchant",
+								"v1.0",
+								"merchants",
+								"0452ede8-aa52-47f6-9cb8-4bfb9ea8ffef",
+								"interruptions"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Registrar Agradecimento",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "{{token_ifood}}",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "[\r\n  {\r\n    \"createdAt\": \"2019-09-19T13:40:11.822Z\",\r\n    \"fullCode\": \"PLACED\",\r\n    \"metadata\": {\r\n      \"additionalProp1\": {},\r\n      \"additionalProp2\": {},\r\n      \"additionalProp3\": {}\r\n    },\r\n    \"code\": \"PLC\",\r\n    \"orderId\": \"07110e1b-8191-4670-baed-407219481ffb\",\r\n    \"id\": \"cd40582b-0ef2-4d52-bc7c-507fdff12e21\"\r\n  }\r\n]",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://merchant-api.ifood.com.br/order/v1.0/events/acknowledgment",
+							"protocol": "https",
+							"host": [
+								"merchant-api",
+								"ifood",
+								"com",
+								"br"
+							],
+							"path": [
+								"order",
+								"v1.0",
+								"events",
+								"acknowledgment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
